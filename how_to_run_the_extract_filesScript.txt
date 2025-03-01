@@ -1,0 +1,1 @@
+python3 extract_files.py path_to_the_directory nameOfYourChoice.txt
