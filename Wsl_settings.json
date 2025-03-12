@@ -1,19 +1,16 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "quakeMode"
             },
             "id": "User.quakeMode.F1E129A4",
             "keys": "alt+q"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -22,8 +19,7 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -39,6 +35,37 @@
             "command": "find",
             "id": "User.find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}" // Default to WSL
+            },
+            "id": "User.newTabWSL",
+            "keys": "ctrl+alt+w" // Custom keybinding for WSL
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}" // Default to PowerShell
+            },
+            "id": "User.newTabPowerShell",
+            "keys": "ctrl+alt+p" // Custom keybinding for PowerShell
+        },
+        {
+            "command": "nextTab",
+            "id": "User.nextTab",
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": "prevTab",
+            "id": "User.prevTab",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "commandPalette",
+            "id": "User.commandPalette",
+            "keys": "ctrl+t" // Open command palette to choose profile
         }
     ],
     "alwaysOnTop": true,
@@ -51,46 +78,40 @@
     "initialCols": 80,
     "initialRows": 20,
     "launchMode": "default",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "Campbell (Copy)",
             "experimental.retroTerminalEffect": true,
-            "font": 
-            {
+            "font": {
                 "face": "CaskaydiaCove Nerd Font",
                 "size": 17
             },
             "opacity": 19,
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
+                "colorScheme": "Campbell",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "experimental.retroTerminalEffect": false,
-                "font": 
-                {
+                "font": {
                     "face": "CaskaydiaCove Nerd Font"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 20,
+                "opacity": 71,
                 "useAcrylic": true
             },
             {
                 "colorScheme": "Tango Dark",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "font": 
-                {
+                "font": {
                     "face": "CaskaydiaCove Nerd Font"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -128,18 +149,21 @@
             },
             {
                 "adjustIndistinguishableColors": "never",
-                "colorScheme": "IBM 5153",
+                "backgroundImage": null,
+                "colorScheme": "Campbell (Copy)",
+                "commandline": "C:\\Windows\\system32\\wsl.exe ",
                 "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "CaskaydiaCove Nerd Font Mono"
+                "elevate": true,
+                "experimental.retroTerminalEffect": true,
+                "font": {
+                    "face": "MesloLGS NF"
                 },
                 "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "hidden": false,
                 "name": "Ubuntu 24.04.1 LTS",
-                "opacity": 29,
+                "opacity": 79,
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc",
+                "startingDirectory": null,
                 "useAcrylic": false
             },
             {
@@ -152,8 +176,7 @@
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe  -i -l",
                 "cursorShape": "filledBox",
                 "experimental.retroTerminalEffect": false,
-                "font": 
-                {
+                "font": {
                     "face": "Unispace",
                     "size": 14,
                     "weight": "semi-light"
@@ -172,8 +195,7 @@
         ]
     },
     "rendering.graphicsAPI": "direct3d11",
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
