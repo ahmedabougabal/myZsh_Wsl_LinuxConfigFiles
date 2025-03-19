@@ -1,14 +1,8 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
-        {
-            "command": {
-                "action": "quakeMode"
-            },
-            "id": "User.quakeMode.F1E129A4",
-            "keys": "alt+q"
-        },
+    "actions": 
+    [
         {
             "command": {
                 "action": "splitPane",
@@ -19,7 +13,24 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": {
+            "command": 
+            {
+                "action": "commandPalette"
+            },
+            "id": "User.commandPalette",
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "id": "User.quakeMode.F1E129A4",
+            "keys": "alt+q"
+        },
+        {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -37,35 +48,38 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "newTab",
-                "profile": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}" // Default to WSL
+                "profile": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}"
             },
             "id": "User.newTabWSL",
-            "keys": "ctrl+alt+w" // Custom keybinding for WSL
+            "keys": "ctrl+alt+w"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "newTab",
-                "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}" // Default to PowerShell
+                "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
             },
             "id": "User.newTabPowerShell",
-            "keys": "ctrl+alt+p" // Custom keybinding for PowerShell
+            "keys": "ctrl+alt+p"
         },
         {
-            "command": "nextTab",
-            "id": "User.nextTab",
-            "keys": "ctrl+tab"
-        },
-        {
-            "command": "prevTab",
+            "command": 
+            {
+                "action": "prevTab"
+            },
             "id": "User.prevTab",
             "keys": "ctrl+shift+tab"
         },
         {
-            "command": "commandPalette",
-            "id": "User.commandPalette",
-            "keys": "ctrl+t" // Open command palette to choose profile
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "id": "User.nextTab",
+            "keys": "ctrl+tab"
         }
     ],
     "alwaysOnTop": true,
@@ -97,6 +111,7 @@
         "list": [
             {
                 "colorScheme": "Campbell",
+                "colorScheme": "Campbell",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "experimental.retroTerminalEffect": false,
                 "font": {
@@ -106,6 +121,7 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 71,
+                "startingDirectory": "D:\\",
                 "useAcrylic": true
             },
             {
@@ -152,17 +168,23 @@
                 "backgroundImage": null,
                 "colorScheme": "Campbell (Copy)",
                 "commandline": "C:\\Windows\\system32\\wsl.exe ",
+                "backgroundImage": null,
+                "colorScheme": "Campbell (Copy)",
+                "commandline": "C:\\Windows\\system32\\wsl.exe ",
                 "cursorShape": "vintage",
                 "elevate": true,
                 "experimental.retroTerminalEffect": true,
-                "font": {
+                "font": 
+                {
                     "face": "MesloLGS NF"
                 },
                 "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "hidden": false,
                 "name": "Ubuntu 24.04.1 LTS",
                 "opacity": 79,
+                "opacity": 79,
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc",
+                "startingDirectory": null,
                 "startingDirectory": null,
                 "useAcrylic": false
             },
