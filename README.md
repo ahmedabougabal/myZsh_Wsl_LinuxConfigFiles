@@ -26,6 +26,33 @@ you can use ctrl + tab to switch between panes/tabs flawlessly like a boss 🏋�
 
 ![image](https://github.com/user-attachments/assets/05c11554-4ed3-4eae-8d6e-650317f4cfa8)
 
+---
+
+# how to setup everything ? 
+
+![image](https://github.com/user-attachments/assets/365da6ab-32cd-45c6-ae6f-ce43d5e658bb)
+
+then open settings 
+
+![image](https://github.com/user-attachments/assets/fc0bc21b-6882-4d21-a09f-6bd75e9b8b96)
+
+
+<br />
+
+then open the json file settings from bottom left and then replace your .json file with mine in the repo.
+
+<br />
+
+![image](https://github.com/user-attachments/assets/d6504348-ecad-4621-bfb7-c3236df69756)
+
+this is should what you see
+
+
+![image](https://github.com/user-attachments/assets/7347c5b5-4e7f-4057-9e2c-e68aba090554)
+
+
 ### enjoy !!
+
+
 
 > refactored with ❤️ by ahmed abou gabal
