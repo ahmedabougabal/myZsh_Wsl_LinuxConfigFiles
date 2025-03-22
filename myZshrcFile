@@ -158,3 +158,10 @@ setopt AUTO_CD
 setopt AUTO_PUSHD
 setopt PUSHD_IGNORE_DUPS
 setopt PUSHD_MINUS
+export PYTHONPATH=/mnt/d/WSL-python-packages:$PYTHONPATH
+export PATH=$PATH:/mnt/c/Users/ahmed/AppData/Roaming/npm
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
