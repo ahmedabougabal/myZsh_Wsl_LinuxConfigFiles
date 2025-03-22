@@ -18,7 +18,7 @@ use ctrl + shift + w to close current pane
 
 you can use ctrl + T to open the drop down command menu 
 
-
+you can use ctrl + tab to switch between panes/tabs flawlessly like a boss 🏋️‍♂️
 
 ![image](https://github.com/user-attachments/assets/56885e10-987e-46cd-a1a7-3853bd4a85ed)
 
