@@ -4,6 +4,7 @@
 
 ## this is my quake terminal configuration on WSL/Ubuntu on windows for whoever likes to copy and play with 
 
+after setup, to acesss the quake terminal, you must first open the terminal app first, then press **alt + q** to lanuch the quake terminal instantly , you can also modify the shortcut of your choice in the json file in the instructions below...  
 
 Press Ctrl + T to open the command palette, where you can type "new tab" and select the desired profile (e.g., WSL or PowerShell).
 
